@@ -1,0 +1,40 @@
+/* general */
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+/* header */
+  header {
+    background-color: rgb(13, 50, 90);
+  }
+
+/* sections */
+  .blue {
+    background-color: rgb(13, 50, 90);
+  }
+
+  .grey {
+    background-color: #f9f9f9;
+  }
+
+  .white {
+    background-color: white;
+  }
+
+  .dark-blue {
+    background-color: #0f335a;
+  }
+
+/* footer */
+    footer {
+    background-color: rgb(13, 50, 90);
+  }
+
+/* da cancellare poi */
+  section,
+  header,
+  footer {
+    height: 20px;
+  }
