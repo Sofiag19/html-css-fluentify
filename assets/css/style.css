@@ -7,7 +7,7 @@
   }
 
   .blue {
-    background-color: rgb(13, 50, 90);
+    background-color: rgb(23, 64, 107);
   }
 
   .grey {
@@ -19,12 +19,12 @@
   }
 
   .dark-blue {
-    background-color: #0f335a;
+    background-color: rgb(15, 51, 90);
   }
 
 /* header */
   header {
-    background-color: rgb(13, 50, 90);
+    background-color: rgb(23, 64, 107);
     /* padding: 20px 6%; */
   }
 
@@ -71,6 +71,10 @@
     font-size: 11px;
     display: inline-block;
     font-weight: 700;
+  }
+
+  .menu-header a:hover {
+    color: orange;
   }
 
 /* form-header */
@@ -158,8 +162,171 @@
 
 /* sections */
 
+  /* first grey */
+    .grey.primo {
+      height: 155px;
+      text-align: center;
+      position: relative;
+    }
+
+    .grey.primo .testo-centrato {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+    .grey.primo h4 {
+      color: rgb(55, 58, 60);
+      font-size: 24px;
+      font-weight: 100;
+      margin-bottom: 10px;
+    }
+
+    .grey.primo p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #999;
+      width: 700px;
+    }
+
+  /* first white */
+    .white.first {
+      height: 505px;
+    }
+
+  /* second white */
+    .white.second {
+      height: 493px;
+    }
+
+  /* HR */
+  hr {
+    width: 95%;
+    margin: auto;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+  }
+
+  /* second grey */
+  .grey.second {
+    height: 133px;
+  }
+
+  /* second blue */
+  .blue.second {
+    height: 500px;
+  }
+
+  /* third white */
+  .white.third {
+    height: 529px;
+  }
+
+  /* fourth white */
+  .white.fourth {
+    height: 565.39px;
+  }
+
+  /* third blue */
+  .blue.third {
+    height: 500px;
+  }
+
+  /* fifth white */
+  .white.fifth {
+    height: 535px;
+  }
+
+  /* darkblue */
+  .dark-blue {
+    box-sizing: border-box;
+    height: 135px;
+    padding: 0 110px;
+    position: relative;
+    color: white;
+  }
+
+  .faq {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+  }
+
+  .dark-blue h2 {
+    margin-bottom: 5px;
+    font-weight: 100;
+  }
+
+  .dark-blue a {
+    text-decoration: none;
+    color:orange ;
+  }
+
+  .dark-blue a:hover {
+    text-decoration: underline;
+  }
+
+  .dark-blue p {
+    color: rgba(255,255,255,.5);
+  }
 
 /* footer */
     footer {
-    background-color: rgb(13, 50, 90);
+    background-color: rgb(23, 64, 107);
+    height: 397px;
+    position: relative;
+    padding: 110px;
   }
+
+    .menu.footer {
+      position: absolute;
+      top:50%;
+      transform: translate(0,-50%);
+      color: rgba(255,255,255,.5);
+    }
+
+    footer h5 {
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .footer ul{
+      list-style-type: none;
+    }
+
+    .footer ul li {
+      margin-top: 24px;
+    }
+
+    .footer ul li a {
+      color:rgba(255,255,255,.5);
+      text-decoration: none;
+    }
+
+    .footer ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .dati-azienda {
+      position: absolute;
+      top: 45%;
+      right: 23%;
+      transform: translate(0,-50%);
+      list-style-type: none;
+      text-align: right;
+      width: 25%;
+    }
+
+    .dati-azienda .strong {
+      font-size: 18px;
+      color: white;
+      font-weight: bolder;
+      margin-bottom: 30px;
+    }
+
+    .dati-azienda .address {
+      color:rgba(255,255,255,.5);
+      line-height: 28px;
+    }
