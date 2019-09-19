@@ -454,8 +454,25 @@
 
   /* fourth white */
   .white.fourth {
-    height: 565.39px;
+    height: 565px;
   }
+
+  .white.fourth:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .white.fourth .dispositivi {
+    float: left;
+    background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/set.svg?v15");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 10% 10%;
+    width: 50%;
+    margin: 5% 5%;
+  }
+
 
   /* third blue */
   .dark-blue.third {
