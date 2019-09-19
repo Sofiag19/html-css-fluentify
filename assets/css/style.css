@@ -454,23 +454,44 @@
 
   /* fourth white */
   .white.fourth {
+    position: relative;
     height: 565px;
   }
 
-  .white.fourth:after {
+  /* .white.fourth:after {
     content: "";
     display: table;
     clear: both;
-  }
+  } */
 
   .white.fourth .dispositivi {
-    float: left;
-    background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/set.svg?v15");
-    background-repeat: no-repeat;
-    background-size: 20%;
-    background-position: 10% 10%;
-    width: 50%;
-    margin: 5% 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36%;
+    text-align: center;
+  }
+
+
+  .white.fourth .dispositivi h2 {
+    color: rgb(74, 74, 74);
+    font-weight: 500;
+    margin: 12px 0;
+  }
+
+  .white.fourth .dispositivi p {
+    margin: 12px 0;
+    color: #999;
+  }
+
+  #ppiccolo {
+    font-size: 11px;
+  }
+
+  .white.fourth .dispositivi a {
+    text-decoration: underline;
+    color: #98c8f8;
   }
 
 
