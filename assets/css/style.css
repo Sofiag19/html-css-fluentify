@@ -6,9 +6,6 @@
     font-family: sans-serif;
   }
 
-  .blue {
-    background-color: rgb(23, 64, 107);
-  }
 
   .grey {
     background-color: #f9f9f9;
@@ -123,6 +120,7 @@
     color: white;
   }
 
+  /* usare float e creare div con le scritte */
   .presentazione {
     height: 420px;
     background-image: url("../img/oldman.png");
@@ -254,7 +252,39 @@
   /* second white */
     .white.second {
       height: 493px;
+      background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/mountain.svg?v15");
+      background-size: 380px;
+      background-position: 20% 60%;
+      background-repeat: no-repeat;
     }
+
+    .white.second:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .liv-iniziale {
+      float: right;
+      width: 27%;
+      margin: 10% 15%;
+    }
+
+    .liv-iniziale h2 {
+      line-height: 40px;
+      color: rgb(74, 74, 74);
+      font-weight: 500;
+    }
+
+    .liv-iniziale p {
+      margin: 20px 0;
+      color: #999;
+    }
+
+    .liv-iniziale a {
+      color: #98c8f8;
+    }
+
 
 
   /* HR */
@@ -271,7 +301,7 @@
   }
 
   /* second blue */
-  .blue.second {
+  .dark-blue.second {
     height: 500px;
   }
 
@@ -286,7 +316,7 @@
   }
 
   /* third blue */
-  .blue.third {
+  .dark-blue.third {
     height: 500px;
   }
 
@@ -295,41 +325,44 @@
     height: 535px;
   }
 
-  /* darkblue */
-  .dark-blue {
-    box-sizing: border-box;
-    height: 135px;
-    padding: 0 110px;
-    position: relative;
-    color: white;
-  }
-
-  .faq {
-    position: absolute;
-    top: 50%;
-    transform: translate(0,-50%);
-  }
-
-  .dark-blue h2 {
-    margin-bottom: 5px;
-    font-weight: 100;
-  }
-
-  .dark-blue a {
-    text-decoration: none;
-    color:orange ;
-  }
-
-  .dark-blue a:hover {
-    text-decoration: underline;
-  }
-
-  .dark-blue p {
-    color: rgba(255,255,255,.5);
-  }
 
 /* footer */
-    footer {
+
+  /* darkblue */
+    footer .dark-blue {
+      box-sizing: border-box;
+      height: 135px;
+      padding: 0 110px;
+      position: relative;
+      color: white;
+    }
+
+    .faq {
+      position: absolute;
+      top: 50%;
+      transform: translate(0,-50%);
+    }
+
+    .dark-blue h2 {
+      margin-bottom: 5px;
+      font-weight: 100;
+    }
+
+    .dark-blue a {
+      text-decoration: none;
+      color:orange ;
+    }
+
+    .dark-blue a:hover {
+      text-decoration: underline;
+    }
+
+    .dark-blue p {
+      color: rgba(255,255,255,.5);
+    }
+
+  /* footer final */
+    footer .final{
     background-color: rgb(23, 64, 107);
     height: 397px;
     position: relative;
@@ -387,3 +420,5 @@
       color:rgba(255,255,255,.5);
       line-height: 28px;
     }
+
+    /* usare float!!!!!! */
