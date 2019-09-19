@@ -300,6 +300,59 @@
     height: 133px;
   }
 
+  .grey.second:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .grey.second h2 {
+    float: left;
+    margin: 0 10%;
+    line-height: 133px;
+    color: rgb(74, 74, 74);
+    font-weight: 500;
+  }
+
+  .grey.second .form {
+    float: right;
+    line-height: 133px;
+    margin: 0 10%;
+  }
+
+  .grey.second .form fieldset {
+    border: 0;
+  }
+
+  .grey.second .form fieldset:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .grey.second .form fieldset label {
+    float: left;
+    color: #b2b2b2;
+    font-size: 26px;
+    margin-right: 30px;
+  }
+
+  .grey.second .form fieldset .scelta {
+    float: left;
+  }
+
+  .grey.second .form fieldset span a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #7fb802;
+    padding: 13px 13px;
+    font-weight: bolder;
+  }
+
+
+
   /* second blue */
   .dark-blue.second {
     height: 500px;
