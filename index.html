@@ -10,6 +10,9 @@
     <!-- contenitore -->
     <div class="contenitore">
 
+      <!-- fixed -->
+      <a href="#" class="fixed">HELP</a>
+
       <!-- header -->
       <header>
         <div class="barra-header">
@@ -107,23 +110,21 @@
       <!-- grey -->
       <section class="grey second">
         <h2>Struttura un piano</h2>
-        <form class="form" action="index.html" method="post">
-          <fieldset>
-            <label for="">Sono</label>
-            <select class="scelta" name="Seleziona">
-              <option value="">uno studente</option>
-              <option value="">un professionista</option>
-              <option value="">un'azienda</option>
-            </select>
-            <span><a href="#">Visualizza il tuo piano</a></span>
-          </fieldset>
-        </form>
-
-        </form>
-
+        <div class="form">
+          <h3 class="sono">Sono</h3>
+          <form>
+            <input list="sono" name="browser" placeholder="Seleziona" class="input-line">
+            <datalist id="sono">
+              <option value="uno studente"></option>
+              <option value="un professionista"></option>
+              <option value="un'azienda"></option>
+            </datalist>
+          </form>
+          <a href="#">Visualizza il tuo piano</a>
+        </div>
       </section>
 
-      <!-- blue -->
+      <!-- dark-blue -->
       <section class="dark-blue second">
         <div class="lezioni">
           <h2>Le nostre lezioni <span>one to one</span></h2>
@@ -148,7 +149,7 @@
 
       </section>
 
-      <hr>
+      <hr class="divisore">
 
       <!-- white -->
       <section class="white fourth">
@@ -162,49 +163,46 @@
 
       </section>
 
-      <!-- blue -->
+      <!-- dark-blue -->
       <section class="dark-blue third">
-        <img src="" alt="">
-        <div class="">
-          <h2></h2>
-          <p></p>
-          <a href="#"></a>
-
+        <div class="azienda">
+          <h2>Fai parlare inglese alla tua azienda</h2>
+          <p>Piani formativi personalizzati e specifici per ogni esigenza, con tutti gli strumenti di controllo che ti servono per monitorare il tuo investimento.</p>
+          <a href="#">scopri come</a>
         </div>
 
       </section>
 
       <!-- white -->
       <section class="white fifth">
-        <div class="">
-          <h2></h2>
-          <div class="">
-            <img src="" alt="">
-            <h2></h2>
-            <p></p>
-            <a href="#"></a>
+          <h2>Struttura un piano</h2>
+          <div class="piani studente">
+            <div class="icone">
+             <img src="https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/student.svg?v15" alt="cappello">
             </div>
-
-        </div>
-        <div class="">
-          <h2></h2>
-          <div class="">
-            <img src="" alt="">
-            <h2></h2>
-            <p></p>
-            <a href="#"></a>
+            <h4>Sono uno studente</h4>
+            <p>Desideri superare un esame certificato, migliorare la tua fluency o prepararti per un viaggio all’estero?</p>
+            <hr class="hr-piani">
+            <a href="#">Struttura un piano</a>
           </div>
-        </div>
-        <div class="">
-          <h2></h2>
-          <div class="">
-            <img src="" alt="">
-            <h2></h2>
-            <p></p>
-            <a href="#"></a>
+          <div class="piani professionista">
+            <div class="icone">
+              <img src="https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/worker.svg?v15" alt="valigia">
+            </div>
+            <h4>Sono un professionista</h4>
+            <p>Vuoi prepararti per un colloquio, migliorare la tua fluency o superare un esame certificato?</p>
+            <hr class="hr-piani">
+            <a href="#">Struttura un piano</a>
           </div>
-        </div>
-
+          <div class="piani aziendale">
+            <div class="icone">
+              <img src="https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/business.svg?v15" alt="edifici">
+            </div>
+            <h4>Sono un'azienda</h4>
+            <p>Sei un HR in cerca di un piano formativo su misura e innovativo adatto per la tua azienda?</p>
+            <hr class="hr-piani">
+            <a href="#">Struttura un piano</a>
+          </div>
       </section>
 
 
@@ -242,8 +240,6 @@
               Company's registered number: 8423300
               Telephone: +44 (0) 20 8133 8469</li>
           </ul>
-
-
         </div>
       </div>
 
