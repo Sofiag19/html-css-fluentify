@@ -685,6 +685,7 @@
       float: left;
       color: rgba(255,255,255,.5);
       margin: 5% 10%;
+      width: 11%;
     }
 
     footer h5 {
@@ -713,9 +714,12 @@
     .dati-azienda {
       float: right;
       margin: 7% 22%;
-      list-style-type: none;
       text-align: right;
       width: 25%;
+    }
+
+    .dati-azienda ul {
+      list-style-type: none;
     }
 
     .dati-azienda .strong {
